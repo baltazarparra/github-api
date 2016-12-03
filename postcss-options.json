@@ -1,0 +1,6 @@
+{
+	"use": ["cssnext", "precss", "cssnano"],
+	"input": "estilo.css",
+	"output": "estilo.min.css",
+	"local-plugins": true
+}

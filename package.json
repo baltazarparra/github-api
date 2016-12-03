@@ -1,0 +1,22 @@
+{
+  "name": "ajax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run css:watch",
+    "css": "postcss -c postcss-options.json",
+    "css:watch": "npm run css -- -w",
+	"serve": "browser-sync start --server --files 'estilo.min.css, index.html, main.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "cssnano": "^3.8.1",
+    "cssnext": "^1.8.4",
+    "postcss": "^5.2.6",
+    "precss": "^1.4.0",
+    "watch": "^1.0.1"
+  }
+}
